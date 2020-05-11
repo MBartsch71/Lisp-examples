@@ -2,4 +2,4 @@
 
 ## Overview
 
-THis repository contains examples from my LISP learning path
+This repository contains examples from my LISP learning path
