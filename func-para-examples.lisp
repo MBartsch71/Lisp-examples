@@ -25,4 +25,12 @@
     "Example (optional :a 2 :b 1 :c 4)"
     (list a b c b-supplied-p))
 
+(defun optional6 (&key ((:apple a)) ((:box b) 0) ((:charlie c) 10 c-supplied-p))
+    "Example (optional6 :apple 10 :box 3 :charlie 2)"
+    (list a b c c-supplied-p))
+
+(defun optional7 (&rest rest &key a b c)
+    (list rest a b c))
+    
+
 
