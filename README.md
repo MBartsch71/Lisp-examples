@@ -11,7 +11,7 @@ In the terminal type
 
 `ros run`
 
-to start the LISP runtime.
+to start the LISP runtime. After that you can try all the .lisp files and the code inside.
 
 
 
